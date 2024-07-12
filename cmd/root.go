@@ -100,7 +100,7 @@ func execCommand(commandArgs []string) {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "wait-for [tcp://host:port|http://host:port|https://host:port]",
+	Use:   "wait-for tcp://host:port|http://host:port|https://host:port [-- command]",
 	Short: "Wait for a TCP port or HTTP endpoint to be available",
 	Long: `Wait for a TCP port to become available or an HTTP endpoint to respond.
 Can optionally run a command after the port/endpoint is ready.`,

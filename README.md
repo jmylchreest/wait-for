@@ -16,7 +16,7 @@ It would be expected that this is used as part of a startup script or similar.
 
 ```bash
 Usage:
-  wait-for [tcp://host:port|http://host:port|https://host:port] [flags]
+  wait-for tcp://host:port|http://host:port|https://host:port [flags] [-- command]
 
 Flags:
   -h, --help              help for wait-for
