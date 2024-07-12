@@ -4,12 +4,16 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+
+    ],
+    "ignoreWords": [
+        "FBPID",
+        "pubsubc",
         "jmylchreest",
         "ldflags",
         "Msgf",
         "urip",
         "zerolog"
     ],
-    "ignoreWords": [],
     "import": []
 }
