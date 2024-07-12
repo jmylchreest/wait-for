@@ -24,9 +24,9 @@ builds:
       - arm64
     ldflags:
       - -s -w 
-      - -X main.version={{.Version}} 
-      - -X main.commit={{.Commit}}
-      - -X main.date={{.Date}}
+      - -X github.com/jmylchreest/wait-for/cmd.version={{.Version}} 
+      - -X github.com/jmylchreest/wait-for/cmd.commit={{.Commit}}
+      - -X github.com/jmylchreest/wait-for/cmd.date={{.Date}}
 
 archives:
   - format: tar.gz
