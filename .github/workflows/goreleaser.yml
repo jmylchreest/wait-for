@@ -28,7 +28,7 @@ jobs:
         with:
           distribution: goreleaser
           version: latest
-          args: ${{ github.ref_type == 'tag' && 'release --clean' || 'build --snapshot --clean' }}
+          args: ${{ github.ref_type == 'tag' && 'release --clean' || 'release --snapshot --clean' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
