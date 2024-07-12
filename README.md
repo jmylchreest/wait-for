@@ -10,7 +10,6 @@
 - Customizable HTTP status code to wait for
 - Adjustable log levels
 
-
 ## Usage
 
 It would be expected that this is used as part of a startup script or similar.
@@ -43,4 +42,3 @@ wait-for tcp://localhost:8085 -- env PUBSUB_EMULATOR_HOST=localhost:8085 pubsubc
 
 wait ${FBPID}
 ```
-
